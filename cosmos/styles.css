@@ -1,0 +1,149 @@
+
+
+body {
+    background-color: #111722;
+
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background:#052b4a;
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav-link {
+    color: rgb(133, 118, 175);
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    border: 1px solid #fff;
+    background:#fff;
+}
+
+.container-fluid {
+    background-color:#111722;
+    position: relative;
+    color: #a9b5cc;
+}
+
+.top-left {
+    position: absolute;
+    left: 0.85%;
+    right: 65.83%;
+    top: 2.13%;
+    bottom: 87.25%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.top-right1 {
+    position: absolute;
+    display: inline-block;
+    color: #a9b5cc;
+    left: 67%;
+    right: 25.83%;
+    top: 2.13%;
+    bottom: 87.25%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 25px;
+}
+
+.top-right2 {
+    position: absolute;
+    display: inline-block;
+    color: #a9b5cc;
+    left: 67%;
+    right: 15.83%;
+    top: 12.13%;
+    bottom: 87.25%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.container-fluid button {
+    border:1px solid #008f30;
+    background:#008f30;
+    border-radius: 15px 15px;
+    color:#fff;
+}
+
+.container-fluid button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    border-radius: 15px 15px;
+    color:#000;
+    transition: all 0.3s ease;
+}
+
+.features {
+    background-color:#111722;
+	padding: 5em;
+	position: relative;
+}
+
+.feature-title {
+    background-color:#111722;
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+    margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.description {
+    background-color: #111722;
+	text-align: left;
+
+    padding: 5em;
+}
+
+.description h1 {
+	color:#A9B5CC;
+}
+
+.description p {
+	color: #A9B5CC;
+	font-size: 1rem;
+	line-height: 1.5; 
+}
+
+.description button {
+    border:1px solid #008f30;
+    background:#008f30;
+    border-radius: 15px 15px;
+    color:#fff;
+    transition: all 0.3s ease;
+}
+
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+footer {
+
+    text-align: left;
+    background-color: #052b4a;
+    color: #a9b5cc;
+    position: relative;
+    height: 100px;
+}
+
+
